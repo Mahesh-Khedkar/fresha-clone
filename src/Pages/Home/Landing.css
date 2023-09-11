@@ -1,0 +1,31 @@
+.landingBody{
+    background: linear-gradient(45deg, rgb(239, 154, 240), rgb(245, 245, 249), rgb(186, 186, 242));
+}
+
+.navDiv{
+    padding: 20px;
+}
+.welcomeContainer{
+    margin-top: 50px;
+}
+
+.welcomemsg{
+    margin-left: 80px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcomemsg p{
+    font-size: 80px;
+}
+
+.LandingSearchBar{
+    margin-left: 80px;
+    height: 70px;
+    width: 80%;
+    border-radius: 40px;
+    background: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px rgb(248, 174, 174);
+}

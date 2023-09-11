@@ -1,0 +1,45 @@
+.homepageNav{
+    /* height: 30px; */
+    /* margin-top: 20px; */
+    border-radius: 10px; 
+    display: flex;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    background: transparent; 
+    color: black;
+}
+
+.left{
+
+}
+
+.right{
+    margin-left: 200px;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.right div{
+    height: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 20px;
+    font-weight: 100 px;
+    background: white;
+    color: black;
+}
+
+.right select{
+    border: 0px;
+    font-size: 15px;
+    font-weight: 70;
+    width: 80px;
+}
+
+.right select::selection{
+    border: 0px;
+}
+
