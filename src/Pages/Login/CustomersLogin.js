@@ -3,6 +3,7 @@ import './CustomersLogin.css';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import { useNavigate } from 'react-router-dom';
+import Logo from '../../Components/Logo/Logo';
 
 
 const CustomersLogin = () => {
@@ -33,6 +34,7 @@ const CustomersLogin = () => {
                     </section>
                 </form>
             </div>
+            <Logo/>
         </center>
     </div>
   )

@@ -2,6 +2,7 @@ import React from 'react';
 import './BusinessLogin.css';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { useNavigate } from 'react-router-dom';
+import Logo from '../../Components/Logo/Logo';
 
 const BusinessLogin = () => {
 
@@ -30,6 +31,7 @@ const BusinessLogin = () => {
                     </section>
                 </form>
             </div>
+            <Logo/>
         </center>
     </div>
   )

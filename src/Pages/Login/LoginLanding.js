@@ -3,6 +3,7 @@ import './LoginLanding.css';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import { useNavigate } from 'react-router-dom';
+import Logo from '../../Components/Logo/Logo';
 
 
 const LoginLanding = () => {
@@ -34,16 +35,7 @@ const LoginLanding = () => {
             </section>
           </div>
         </div>
-        <center>
-          <div>
-            <div style={{height:'28px',width:'28px',borderRadius:'14px', background: 'linear-gradient(white, blue)'}}></div>
-            <div>
-              <h2>
-                ESalon
-              </h2>
-            </div>
-          </div>
-        </center>
+        <Logo/>
       </center>
     </div>
   );

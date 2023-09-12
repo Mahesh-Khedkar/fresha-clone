@@ -1,0 +1,16 @@
+.logoContainer{
+    width: 120px;
+    height: 35px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.round{
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background: linear-gradient( white, rgb(158, 158, 246), blue);
+}
