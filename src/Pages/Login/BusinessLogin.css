@@ -1,0 +1,39 @@
+.BusinessLoginBody{
+    margin: 50px;
+    /* padding: 50px; */
+}
+
+.backToLoginLanding{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 90px;
+}
+
+.formBody{
+    border:1px solid blaCK;
+     border-radius: 30px;
+     width: 30%;
+     height: auto;
+     padding: 20px;
+}
+
+input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+input[type="submit"]{
+    background: black;
+    color: white;
+}
+
+
+.custSignUp{
+    width: 190px;
+    margin: 20px;
+    color: blue;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
