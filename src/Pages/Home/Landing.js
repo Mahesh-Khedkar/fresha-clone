@@ -3,6 +3,7 @@ import './Landing.css';
 import LandingNavbar from '../../Components/Navbar/LandingNavbar';
 import Recommended from './Recommended';
 import NewToESalon from './NewToESalon';
+import Footer from '../../Components/Footer/Footer';
 
 const Landing = () => {
   return (
@@ -22,6 +23,7 @@ const Landing = () => {
       </center>
       <Recommended/>
       <NewToESalon/>
+      <Footer/>
     </div>
   )
 }

@@ -1,38 +1,37 @@
-import React, { Component } from "react";
+import React, { useState } from 'react';
 import './Recommended.css';
 import Card from './Card';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import ShopData from '../../Data/Data';
 
 const Recommended = () => {
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 3
-  };
+  let [initialShow, setInitialShow] = useState(0);
+  let [finalShow, setFinalShow] = useState(4);
+
+  function handleClick()
+  {
+    if(ShopData.length == finalShow)
+    {
+      setFinalShow = finalShow;
+    }
+    else{
+      setFinalShow = finalShow + 4;
+    }
+
+  }
+
 
   return (
     <div className='RecommendedBody'>
         <h1>Recommended</h1>
         <center>
-        <Slider {...settings}>
           <div>
-            <Card/>
+            <Card finalShow={finalShow}/>
           </div>
-          {/* <div>
-            <Card/>
-          </div>
-          <div>
-            <Card/>
-          </div>
-          <div>
-            <Card/>
-          </div> */}
-        </Slider>
+        <button className="morebtn" onClick={handleClick()}>More</button>
         </center>
     </div>
   )

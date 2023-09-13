@@ -1,0 +1,45 @@
+.footerBody{
+    /* height: 300px; */
+    /* border: 1px solid black; */
+    background: rgb(243, 242, 242);
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer div{
+    margin: 10px;
+    /* list-style: none; */
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    margin: 10px;
+    font-size: 17px;
+}
+
+.getApp{
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fdiv2{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+}

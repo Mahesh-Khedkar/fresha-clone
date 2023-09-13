@@ -60,6 +60,7 @@ const NewToESalon = () => {
             <Card/>
           </div> */}
         </Slider>
+        <button className="morebtn">More</button>
         </center>
     </div>
   )
